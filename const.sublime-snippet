@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+const ${1:name} = ${2:true};
+]]></content>
+    <tabTrigger>const</tabTrigger>
+    <scope>source.js</scope>
+    <description>ES6: Const;</description>
+</snippet>
