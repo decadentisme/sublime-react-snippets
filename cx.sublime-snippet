@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+cx(${1:${2:styles.name}, }${3:{
+  [${4:styles.name}]: ${5:true},
+\}});
+]]></content>
+    <tabTrigger>cx</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: cx({ ... })</description>
+</snippet>

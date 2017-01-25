@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+css(styles.${1})
+]]></content>
+    <tabTrigger>css</tabTrigger>
+    <scope>source.js</scope>
+    <description>Aphrodite: css snippet</description>
+</snippet>

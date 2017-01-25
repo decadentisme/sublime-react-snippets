@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component } from 'react';
+
+export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      ${3:<div>${4}</div>}
+    );
+  }
+}
+
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {${2}};
+
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
+
+]]></content>
+    <tabTrigger>rcc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: component skeleton</description>
+</snippet>

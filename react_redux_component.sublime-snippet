@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component, PropTypes } from 'react';
+import { connect } from 'react-redux';
+import { createSelector } from 'reselect';
+
+export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      ${4:<div>${5}</div>}
+    );
+  }
+}
+
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {${3}};
+
+const selector = createSelector(${2});
+
+export default connect(selector)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}});
+
+]]></content>
+    <tabTrigger>rrc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: redux component skeleton</description>
+</snippet>

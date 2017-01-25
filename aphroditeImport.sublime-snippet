@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+import { StyleSheet, css } from 'aphrodite';
+
+const styles = StyleSheet.create({
+  ${1}
+});
+
+]]></content>
+    <tabTrigger>aimp</tabTrigger>
+    <scope>source.js</scope>
+    <description>Aphrodite: skeleton</description>
+</snippet>

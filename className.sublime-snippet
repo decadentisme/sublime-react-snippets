@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+className={${1}}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.js</scope>
+    <description>JSX: className</description>
+</snippet>
