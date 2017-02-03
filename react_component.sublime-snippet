@@ -9,7 +9,7 @@ export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
 
   render() {
     return (
-      ${4:<div>${4}</div>}
+      ${4:<div>${5}</div>}
     );
   }
 }
