@@ -2,11 +2,15 @@
     <content><![CDATA[
 import React, { PropTypes } from 'react';
 
-export const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (${2}) => (
-  ${4:<div>${5}</div>}
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (${2}) => (
+  <div />
 );
 
 ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {${3}};
+
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.defaultProps = {${4}};
+
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.contextTypes = {${5}};
 
 export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
 
