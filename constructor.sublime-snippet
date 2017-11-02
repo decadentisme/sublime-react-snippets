@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-  constructor(props) {
-    super(props)
-    ${1}
-  }
+constructor(props) {
+  super(props)
+  ${1}
+}
 ]]></content>
     <tabTrigger>const</tabTrigger>
     <scope>source.js</scope>
