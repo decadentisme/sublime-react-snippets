@@ -1,31 +1,27 @@
 <snippet>
     <content><![CDATA[
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { createSelector } from 'reselect';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { createSelector } from 'reselect'
 
 class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div />
-    );
+    )
   }
 }
 
-${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {${3}};
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {${3}}
 
-${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.defaultProps = {${4}};
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.defaultProps = {${4}}
 
-${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.contextTypes = {${5}};
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.contextTypes = {${5}}
 
-const selector = createSelector(${2});
+const selector = createSelector(${2})
 
-export default connect(selector)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}});
+export default connect(selector)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
 
 ]]></content>
     <tabTrigger>rrc</tabTrigger>

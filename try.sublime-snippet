@@ -6,5 +6,5 @@ try {
 ]]></content>
     <tabTrigger>try</tabTrigger>
     <scope>source.js</scope>
-    <description>Function: ES6 function;</description>
+    <description>Function: ES6 function</description>
 </snippet>

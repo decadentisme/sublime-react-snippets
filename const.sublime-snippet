@@ -1,8 +1,11 @@
 <snippet>
     <content><![CDATA[
-const ${1:name} = ${2:true};
+  constructor(props) {
+    super(props)
+    ${1}
+  }
 ]]></content>
     <tabTrigger>const</tabTrigger>
     <scope>source.js</scope>
-    <description>ES6: Const;</description>
+    <description>React: Constructor</description>
 </snippet>
